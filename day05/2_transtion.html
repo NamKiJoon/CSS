@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            margin: 30px;
+            border: 1px solid #222;
+        }
+
+        #bg_tr {
+            background-color: coral;
+            transition: background-color linear 2s;
+
+        }
+
+        #bg_tr:hover {
+            background-color: yellow;
+            border: 5px dotted #ff0000;
+        }
+
+        #border_tr {
+            background-color: #ff0000;
+            transition: all ease-out 2s;
+        }
+
+        #border_tr:hover {
+            background-color: #908709;
+            border: 5px dotted #494949;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>transition</h2>
+    <div id="bg_tr"></div>
+    <div id="border_tr"></div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>입력폼</title>
+</head>
+<!--
+    localhost:3000/api/login
+
+    user_id:""
+    user_name:""
+    user_info:""
+
+    <Get>
+    localhost:3000/api/login?user-id=[?]&user-pw[?]
+-->
+
+<body>
+    <h2>입력폼</h2>
+    <!--백엔드 주소-->
+    <!--form태그 안의 데이터들이 해당 주소 전돨되는 방법-->
+    <form action="/" method="get">
+        <p>아이디 : <input type="text" placeholder="ID" required name="user-ID" /></p>
+        <p>비밀번호 : <input type="password" placeholder="PW" required name="user-PW" /></p>
+        <p>직업
+            <select name="user-job">
+                <option value="0">학생</option>
+                <option value="1">개발자</option>
+                <option value="2">교수</option>
+                <option value="3">기타</option>
+            </select>
+        </p>
+        <p>
+            자기소개
+            <textarea placeholder="자기소개 300자 이상 1000자 이하"></textarea>
+        </p>
+        <div>
+            <input type="submit" value="회원가입">
+            <input type="reset" value="다시작성">
+            <button>돌아가기</button>
+        </div>
+    </form>
+</body>
+
+</html>

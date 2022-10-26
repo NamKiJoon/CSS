@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "Noto";
+    src: url("./FONT/NotoSansKR-Regular.otf");
+}
+
+.top_banner {
+    text-align: right;
+}
+
+.top_banner > a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-family: "Noto";
+}
+
+.top {
+    margin: 0 auto;
+    width: 1130px;
+}
+
+.top_search {
+    display: flex;
+    align-items: center;
+}
+.search_bar {
+    width: 550px;
+    height: 50px;
+    border-color: green;
+    font-size: 20px;
+}
+
+#naverlogo {
+    width: 250px;
+    height: 90px;
+}
+
+.click {
+    width: 58px;
+    padding-top: 4.5px;
+}
+
+.banner {
+    height: 100px;
+}
+
+.banner {
+    border: 2px solid rgb(224, 224, 224);
+    width: 110%;
+    height: 50px;
+    margin-left: -10px;
+    margin-top: 50px;
+}
+
+.banner_link {
+    margin: 0 auto;
+    width: 1220px;
+    height: 50px;
+    font-family: "Noto";
+    display: flex;
+    align-items: center;
+}
+
+.banner_link a {
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.linkFont_green a {
+    color: rgb(0, 178, 0);
+    margin-right: 10px;
+}
+
+.linkFont_black a {
+    color: black;
+    margin-right: 10px;
+}
+
+#select {
+    border: 0;
+}
+
+.container_Main {
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+#main_left {
+    border: 1px solid rgb(206, 203, 203);
+    width: 700px;
+}
+
+#main_right {
+    border: 1px solid rgb(206, 203, 203);
+    width: 350px;
+    margin-left: 30px;
+    background-color: rgb(244, 244, 244);
+    font-size: 12px;
+}
+
+#right_Top {
+    margin-left: 15px;
+    margin-top: 30px;
+    color: gray;
+    font-family: "Noto";
+}
+
+#right_Middle {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+#right_Bot {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+#main_right a {
+    text-decoration: none;
+    color: black;
+}
+
+.container_News {
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+#main_News {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(206, 203, 203);
+    width: 700px;
+    height: 50px;
+    background-color: rgb(244, 244, 244);
+    font-size: 13px;
+    font-family: "Noto";
+}
+
+#YHnews {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#newsHome {
+    margin-left: 300px;
+    margin-top: 2px;
+}
+
+#newsHome ul {
+    display: flex;
+    list-style: none;
+}
+
+#newsHome li {
+    margin-right: 10px;
+}
+
+#newsHome a {
+    text-decoration: none;
+    color: black;
+}
+
+#main_Bank {
+    border: 1px solid rgb(206, 203, 203);
+    background-color: rgb(244, 244, 244);
+    width: 350px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#main_Bank a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.container_Middle {
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+.container_left {
+    border: 1px solid red;
+    width: 700px;
+    height: 50px;
+    margin-left: -31px;
+}
+
+.container_right {
+    border: 1px solid red;
+    width: 350px;
+}

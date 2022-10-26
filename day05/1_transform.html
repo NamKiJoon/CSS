@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        p {
+            width: 400px;
+            padding: 15px;
+            border: 3px solid #000080;
+        }
+
+        #trans1 {
+            background-color: #ff1493;
+            /* transform: translate(30px, 300px); */
+        }
+
+        #trans2 {
+            background-color: #375822;
+            transform: rotateY(180deg);
+        }
+
+        #trans3 {
+            background-color: #097657;
+            /* transform: scale(1.5); */
+            /* transform: scale(1.5, 2); x축 y축 다르게 설정 가능 */
+        }
+
+        #trans3:hover {
+            transform: scale(3);
+        }
+
+        #trans4 {
+            background-color: #372894;
+            transform: skew(30deg, 10deg);
+        }
+
+        .gradient1 {
+            background: linear-gradient(to left, transparent, #ff0000);
+            background: linear-gradient(to bottom left,
+                    transparent,
+                    #ff0000);
+
+            background: linear-gradient(red, orange, blue, pink, green, navy, purple, gray, skyblue, violet);
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2>transform</h2>
+    <p>original</p>
+    <p id="trans1">translate</p>
+    <!--이동-->
+    <p id="trans2">rotate</p>
+    <!-- 회전 -->
+    <p id="trans3">scale</p>
+    <!-- 확대 축소 -->
+    <p id="trans4">skew</p>
+    <!-- 경사 -->
+    <p class="gradient1">gradient12321321321312313123123</p>
+    <p class="gradient2">gradient</p>
+</body>
+
+</html>

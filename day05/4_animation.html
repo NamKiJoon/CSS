@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            box-sizing: border-box;
+            border: 1px solid #000000;
+            margin-top: 100px;
+            margin-left: 100px;
+            padding: 20px;
+            height: 80px;
+            animation: moving 3s infinite;
+        }
+
+        @keyframes moving {
+            50% {
+                width: 300px;
+                background-color: coral;
+                transform: scale(1) rotate(30deg);
+                opacity: 0.5;
+            }
+
+            100% {
+                background-color: aquamarine;
+                opacity: 1;
+                transform: scale(1.30) rotate(90deg);
+            }
+        }
+
+        /*
+        animation: name,duration,count,direction
+        
+        name: 애니메이션명
+        duraction: 시간
+        count:반복
+        direction:편도,왕복
+            -normal: 완료후 다시 초기상태로
+            -alternate: 한번 끝까지 하고 다시 반대로
+            -reverse: 프레임 거꾸로 진행
+        */
+    </style>
+</head>
+
+<body>
+    <h2>animation-1</h2>
+    <div class="box">
+        <h2>CSS ANIMATION</h2>
+    </div>
+</body>
+
+</html>

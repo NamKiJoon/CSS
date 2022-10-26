@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박스사이징</title>
+    <style>
+        /*리셋 CSS의 한종류! 개발할때 중요!*/
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        div {
+            width: 300px;
+            height: 150px;
+            border: 10px solid #ff0000;
+            /* padding: 30px;
+            margin: 10px; */
+        }
+
+        .bs1 {
+            box-sizing: content-box;
+            /* padding: 10px; */
+        }
+
+        .bs2 {
+            box-sizing: border-box;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>박스 사이징</h2>
+    <div class="bs1">123</div>
+    <div class="bs2">123</div>
+</body>
+
+</html>
